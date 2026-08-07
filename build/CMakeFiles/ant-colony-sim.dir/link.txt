@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ant-colony-sim.dir/main.cpp.o -o ant-colony-sim  -Wl,-rpath,/home/lucas/code/my-projects/ant-colony-sim/build libSDL3.so.0.5.0 
