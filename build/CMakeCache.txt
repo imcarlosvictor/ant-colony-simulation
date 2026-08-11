@@ -402,13 +402,13 @@ PULSE_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libpulse.so
 READELF_BIN:FILEPATH=/usr/bin/readelf
 
 //Value Computed by CMake
-SDL3_BINARY_DIR:STATIC=/home/lucas/code/my-projects/ant-colony-sim/build/sdl/vendored/SDL
+SDL3_BINARY_DIR:STATIC=/home/lucas/code/my-projects/ant-colony-sim/build/SDL/vendored/SDL
 
 //Value Computed by CMake
 SDL3_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-SDL3_SOURCE_DIR:STATIC=/home/lucas/code/my-projects/ant-colony-sim/sdl/vendored/SDL
+SDL3_SOURCE_DIR:STATIC=/home/lucas/code/my-projects/ant-colony-sim/SDL/vendored/SDL
 
 //Support the ALSA audio API
 SDL_ALSA:BOOL=ON

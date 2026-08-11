@@ -1,8 +1,8 @@
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/ant-colony-sim.dir
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/edit_cache.dir
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/rebuild_cache.dir
-/home/lucas/code/my-projects/ant-colony-sim/build/sdl/vendored/SDL/CMakeFiles/SDL3-shared.dir
-/home/lucas/code/my-projects/ant-colony-sim/build/sdl/vendored/SDL/CMakeFiles/SDL3_test.dir
-/home/lucas/code/my-projects/ant-colony-sim/build/sdl/vendored/SDL/CMakeFiles/SDL_uclibc.dir
-/home/lucas/code/my-projects/ant-colony-sim/build/sdl/vendored/SDL/CMakeFiles/edit_cache.dir
-/home/lucas/code/my-projects/ant-colony-sim/build/sdl/vendored/SDL/CMakeFiles/rebuild_cache.dir
+/home/lucas/code/my-projects/ant-colony-sim/build/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir
+/home/lucas/code/my-projects/ant-colony-sim/build/SDL/vendored/SDL/CMakeFiles/SDL3_test.dir
+/home/lucas/code/my-projects/ant-colony-sim/build/SDL/vendored/SDL/CMakeFiles/SDL_uclibc.dir
+/home/lucas/code/my-projects/ant-colony-sim/build/SDL/vendored/SDL/CMakeFiles/edit_cache.dir
+/home/lucas/code/my-projects/ant-colony-sim/build/SDL/vendored/SDL/CMakeFiles/rebuild_cache.dir

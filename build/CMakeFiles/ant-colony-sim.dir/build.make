@@ -93,7 +93,7 @@ ant__colony__sim_EXTERNAL_OBJECTS =
 ant-colony-sim: CMakeFiles/ant-colony-sim.dir/main.cpp.o
 ant-colony-sim: CMakeFiles/ant-colony-sim.dir/build.make
 ant-colony-sim: libSDL3.so.0.5.0
-ant-colony-sim: ../sdl/vendored/SDL/src/dynapi/SDL_dynapi.sym
+ant-colony-sim: ../SDL/vendored/SDL/src/dynapi/SDL_dynapi.sym
 ant-colony-sim: CMakeFiles/ant-colony-sim.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ant-colony-sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ant-colony-sim.dir/link.txt --verbose=$(VERBOSE)

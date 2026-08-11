@@ -140,7 +140,7 @@ SDL3-shared: cmake_check_build_system
 
 # fast build rule for target.
 SDL3-shared/fast:
-	$(MAKE) $(MAKESILENT) -f sdl/vendored/SDL/CMakeFiles/SDL3-shared.dir/build.make sdl/vendored/SDL/CMakeFiles/SDL3-shared.dir/build
+	$(MAKE) $(MAKESILENT) -f SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/build.make SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/build
 .PHONY : SDL3-shared/fast
 
 #=============================================================================
@@ -153,7 +153,7 @@ SDL3_test: cmake_check_build_system
 
 # fast build rule for target.
 SDL3_test/fast:
-	$(MAKE) $(MAKESILENT) -f sdl/vendored/SDL/CMakeFiles/SDL3_test.dir/build.make sdl/vendored/SDL/CMakeFiles/SDL3_test.dir/build
+	$(MAKE) $(MAKESILENT) -f SDL/vendored/SDL/CMakeFiles/SDL3_test.dir/build.make SDL/vendored/SDL/CMakeFiles/SDL3_test.dir/build
 .PHONY : SDL3_test/fast
 
 #=============================================================================
@@ -166,7 +166,7 @@ SDL_uclibc: cmake_check_build_system
 
 # fast build rule for target.
 SDL_uclibc/fast:
-	$(MAKE) $(MAKESILENT) -f sdl/vendored/SDL/CMakeFiles/SDL_uclibc.dir/build.make sdl/vendored/SDL/CMakeFiles/SDL_uclibc.dir/build
+	$(MAKE) $(MAKESILENT) -f SDL/vendored/SDL/CMakeFiles/SDL_uclibc.dir/build.make SDL/vendored/SDL/CMakeFiles/SDL_uclibc.dir/build
 .PHONY : SDL_uclibc/fast
 
 main.o: main.cpp.o

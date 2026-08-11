@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/lucas/code/my-projects/ant-colony-sim/build/sdl/vendored/SDL/include-revision -I/home/lucas/code/my-projects/ant-colony-sim/sdl/vendored/SDL/include
+CXX_INCLUDES = -I/home/lucas/code/my-projects/ant-colony-sim/build/SDL/vendored/SDL/include-revision -I/home/lucas/code/my-projects/ant-colony-sim/SDL/vendored/SDL/include
 
 CXX_FLAGS = 
 
