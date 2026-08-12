@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ant-colony-sim.dir/main.cpp.o"
-  "CMakeFiles/ant-colony-sim.dir/main.cpp.o.d"
+  "CMakeFiles/ant-colony-sim.dir/src/main.cpp.o"
+  "CMakeFiles/ant-colony-sim.dir/src/main.cpp.o.d"
   "ant-colony-sim"
   "ant-colony-sim.pdb"
 )

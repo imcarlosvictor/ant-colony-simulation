@@ -1,6 +1,0 @@
-sdl/vendored/SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_keymap.c.o: \
- /home/lucas/code/my-projects/ant-colony-sim/sdl/vendored/SDL/src/events/SDL_keymap.c \
- /usr/include/stdc-predef.h \
- /home/lucas/code/my-projects/ant-colony-sim/sdl/vendored/SDL/src/SDL_internal.h \
- /home/lucas/code/my-projects/ant-colony-sim/sdl/vendored/SDL/src/events/SDL_keymap_c.h \
- /home/lucas/code/my-projects/ant-colony-sim/sdl/vendored/SDL/src/events/SDL_keyboard_c.h

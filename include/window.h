@@ -1,11 +1,12 @@
 #include <SDL3/SDL.h>
+#include <SDL3/SDL_main.h>
 #include <vector>
 #include <string>
 
 #include "tile.h"
 
 class Window {
-	pulic:
+	public:
 		Window(); // initialize window variables
 		Window(int width, int height, std::string title); 
 		~Window(); // clean up window variables
@@ -14,10 +15,16 @@ class Window {
 		void createWindow();
 
 	private:
-		// window dimensions
+		// window parameters 
 		const int WIDTH;
 		const int HEIGHT;
-
 		const std::string WINDOW_TITLE;
+
 		std::vector<Tile>* maze;
+
+		SDL_Window* window;
+		SDL_Renderer* renderer;
+		SDL_Surface* surface;
+		SDL_Texture* texture;
+		SDL_Event event;
 };
