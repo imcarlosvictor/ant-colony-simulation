@@ -83,19 +83,99 @@ CMakeFiles/ant-colony-sim.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ant-colony-sim.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/code/my-projects/ant-colony-sim/src/main.cpp -o CMakeFiles/ant-colony-sim.dir/src/main.cpp.s
 
+CMakeFiles/ant-colony-sim.dir/src/window.cpp.o: CMakeFiles/ant-colony-sim.dir/flags.make
+CMakeFiles/ant-colony-sim.dir/src/window.cpp.o: ../src/window.cpp
+CMakeFiles/ant-colony-sim.dir/src/window.cpp.o: CMakeFiles/ant-colony-sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ant-colony-sim.dir/src/window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ant-colony-sim.dir/src/window.cpp.o -MF CMakeFiles/ant-colony-sim.dir/src/window.cpp.o.d -o CMakeFiles/ant-colony-sim.dir/src/window.cpp.o -c /home/lucas/code/my-projects/ant-colony-sim/src/window.cpp
+
+CMakeFiles/ant-colony-sim.dir/src/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ant-colony-sim.dir/src/window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/code/my-projects/ant-colony-sim/src/window.cpp > CMakeFiles/ant-colony-sim.dir/src/window.cpp.i
+
+CMakeFiles/ant-colony-sim.dir/src/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ant-colony-sim.dir/src/window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/code/my-projects/ant-colony-sim/src/window.cpp -o CMakeFiles/ant-colony-sim.dir/src/window.cpp.s
+
+CMakeFiles/ant-colony-sim.dir/src/ant.cpp.o: CMakeFiles/ant-colony-sim.dir/flags.make
+CMakeFiles/ant-colony-sim.dir/src/ant.cpp.o: ../src/ant.cpp
+CMakeFiles/ant-colony-sim.dir/src/ant.cpp.o: CMakeFiles/ant-colony-sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ant-colony-sim.dir/src/ant.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ant-colony-sim.dir/src/ant.cpp.o -MF CMakeFiles/ant-colony-sim.dir/src/ant.cpp.o.d -o CMakeFiles/ant-colony-sim.dir/src/ant.cpp.o -c /home/lucas/code/my-projects/ant-colony-sim/src/ant.cpp
+
+CMakeFiles/ant-colony-sim.dir/src/ant.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ant-colony-sim.dir/src/ant.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/code/my-projects/ant-colony-sim/src/ant.cpp > CMakeFiles/ant-colony-sim.dir/src/ant.cpp.i
+
+CMakeFiles/ant-colony-sim.dir/src/ant.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ant-colony-sim.dir/src/ant.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/code/my-projects/ant-colony-sim/src/ant.cpp -o CMakeFiles/ant-colony-sim.dir/src/ant.cpp.s
+
+CMakeFiles/ant-colony-sim.dir/src/colony.cpp.o: CMakeFiles/ant-colony-sim.dir/flags.make
+CMakeFiles/ant-colony-sim.dir/src/colony.cpp.o: ../src/colony.cpp
+CMakeFiles/ant-colony-sim.dir/src/colony.cpp.o: CMakeFiles/ant-colony-sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ant-colony-sim.dir/src/colony.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ant-colony-sim.dir/src/colony.cpp.o -MF CMakeFiles/ant-colony-sim.dir/src/colony.cpp.o.d -o CMakeFiles/ant-colony-sim.dir/src/colony.cpp.o -c /home/lucas/code/my-projects/ant-colony-sim/src/colony.cpp
+
+CMakeFiles/ant-colony-sim.dir/src/colony.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ant-colony-sim.dir/src/colony.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/code/my-projects/ant-colony-sim/src/colony.cpp > CMakeFiles/ant-colony-sim.dir/src/colony.cpp.i
+
+CMakeFiles/ant-colony-sim.dir/src/colony.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ant-colony-sim.dir/src/colony.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/code/my-projects/ant-colony-sim/src/colony.cpp -o CMakeFiles/ant-colony-sim.dir/src/colony.cpp.s
+
+CMakeFiles/ant-colony-sim.dir/src/map.cpp.o: CMakeFiles/ant-colony-sim.dir/flags.make
+CMakeFiles/ant-colony-sim.dir/src/map.cpp.o: ../src/map.cpp
+CMakeFiles/ant-colony-sim.dir/src/map.cpp.o: CMakeFiles/ant-colony-sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ant-colony-sim.dir/src/map.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ant-colony-sim.dir/src/map.cpp.o -MF CMakeFiles/ant-colony-sim.dir/src/map.cpp.o.d -o CMakeFiles/ant-colony-sim.dir/src/map.cpp.o -c /home/lucas/code/my-projects/ant-colony-sim/src/map.cpp
+
+CMakeFiles/ant-colony-sim.dir/src/map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ant-colony-sim.dir/src/map.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/code/my-projects/ant-colony-sim/src/map.cpp > CMakeFiles/ant-colony-sim.dir/src/map.cpp.i
+
+CMakeFiles/ant-colony-sim.dir/src/map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ant-colony-sim.dir/src/map.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/code/my-projects/ant-colony-sim/src/map.cpp -o CMakeFiles/ant-colony-sim.dir/src/map.cpp.s
+
+CMakeFiles/ant-colony-sim.dir/src/tile.cpp.o: CMakeFiles/ant-colony-sim.dir/flags.make
+CMakeFiles/ant-colony-sim.dir/src/tile.cpp.o: ../src/tile.cpp
+CMakeFiles/ant-colony-sim.dir/src/tile.cpp.o: CMakeFiles/ant-colony-sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ant-colony-sim.dir/src/tile.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ant-colony-sim.dir/src/tile.cpp.o -MF CMakeFiles/ant-colony-sim.dir/src/tile.cpp.o.d -o CMakeFiles/ant-colony-sim.dir/src/tile.cpp.o -c /home/lucas/code/my-projects/ant-colony-sim/src/tile.cpp
+
+CMakeFiles/ant-colony-sim.dir/src/tile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ant-colony-sim.dir/src/tile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lucas/code/my-projects/ant-colony-sim/src/tile.cpp > CMakeFiles/ant-colony-sim.dir/src/tile.cpp.i
+
+CMakeFiles/ant-colony-sim.dir/src/tile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ant-colony-sim.dir/src/tile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lucas/code/my-projects/ant-colony-sim/src/tile.cpp -o CMakeFiles/ant-colony-sim.dir/src/tile.cpp.s
+
 # Object files for target ant-colony-sim
 ant__colony__sim_OBJECTS = \
-"CMakeFiles/ant-colony-sim.dir/src/main.cpp.o"
+"CMakeFiles/ant-colony-sim.dir/src/main.cpp.o" \
+"CMakeFiles/ant-colony-sim.dir/src/window.cpp.o" \
+"CMakeFiles/ant-colony-sim.dir/src/ant.cpp.o" \
+"CMakeFiles/ant-colony-sim.dir/src/colony.cpp.o" \
+"CMakeFiles/ant-colony-sim.dir/src/map.cpp.o" \
+"CMakeFiles/ant-colony-sim.dir/src/tile.cpp.o"
 
 # External object files for target ant-colony-sim
 ant__colony__sim_EXTERNAL_OBJECTS =
 
 ant-colony-sim: CMakeFiles/ant-colony-sim.dir/src/main.cpp.o
+ant-colony-sim: CMakeFiles/ant-colony-sim.dir/src/window.cpp.o
+ant-colony-sim: CMakeFiles/ant-colony-sim.dir/src/ant.cpp.o
+ant-colony-sim: CMakeFiles/ant-colony-sim.dir/src/colony.cpp.o
+ant-colony-sim: CMakeFiles/ant-colony-sim.dir/src/map.cpp.o
+ant-colony-sim: CMakeFiles/ant-colony-sim.dir/src/tile.cpp.o
 ant-colony-sim: CMakeFiles/ant-colony-sim.dir/build.make
 ant-colony-sim: libSDL3.so.0.5.0
 ant-colony-sim: ../SDL/vendored/SDL/src/dynapi/SDL_dynapi.sym
 ant-colony-sim: CMakeFiles/ant-colony-sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ant-colony-sim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ant-colony-sim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ant-colony-sim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

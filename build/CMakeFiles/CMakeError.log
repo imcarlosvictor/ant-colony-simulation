@@ -1,14 +1,14 @@
 Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_77407/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_77407.dir/build.make CMakeFiles/cmTC_77407.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ecfaa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ecfaa.dir/build.make CMakeFiles/cmTC_ecfaa.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_77407.dir/src.c.o
-/usr/bin/cc -DHAVE_GCC_WDOCUMENTATION  -D_GNU_SOURCE=1   -Wdocumentation -o CMakeFiles/cmTC_77407.dir/src.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_ecfaa.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_WDOCUMENTATION  -D_GNU_SOURCE=1   -Wdocumentation -o CMakeFiles/cmTC_ecfaa.dir/src.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/src.c
 cc: error: unrecognized command-line option '-Wdocumentation'
-gmake[1]: *** [CMakeFiles/cmTC_77407.dir/build.make:78: CMakeFiles/cmTC_77407.dir/src.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_ecfaa.dir/build.make:78: CMakeFiles/cmTC_ecfaa.dir/src.c.o] Error 1
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_77407/fast] Error 2
+gmake: *** [Makefile:127: cmTC_ecfaa/fast] Error 2
 
 
 Source file was:
@@ -16,14 +16,14 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3e513/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3e513.dir/build.make CMakeFiles/cmTC_3e513.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5fef4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5fef4.dir/build.make CMakeFiles/cmTC_5fef4.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3e513.dir/src.c.o
-/usr/bin/cc -DHAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND  -D_GNU_SOURCE=1   -Wdocumentation-unknown-command -o CMakeFiles/cmTC_3e513.dir/src.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_5fef4.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND  -D_GNU_SOURCE=1   -Wdocumentation-unknown-command -o CMakeFiles/cmTC_5fef4.dir/src.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/src.c
 cc: error: unrecognized command-line option '-Wdocumentation-unknown-command'
-gmake[1]: *** [CMakeFiles/cmTC_3e513.dir/build.make:78: CMakeFiles/cmTC_3e513.dir/src.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_5fef4.dir/build.make:78: CMakeFiles/cmTC_5fef4.dir/src.c.o] Error 1
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_3e513/fast] Error 2
+gmake: *** [Makefile:127: cmTC_5fef4/fast] Error 2
 
 
 Source file was:
@@ -31,14 +31,14 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_GCC_COMMENT_BLOCK_COMMANDS failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ecb8e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ecb8e.dir/build.make CMakeFiles/cmTC_ecb8e.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1270d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1270d.dir/build.make CMakeFiles/cmTC_1270d.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ecb8e.dir/src.c.o
-/usr/bin/cc -DHAVE_GCC_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   -fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_ecb8e.dir/src.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_1270d.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   -fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_1270d.dir/src.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/src.c
 cc: error: unrecognized command-line option '-fcomment-block-commands=threadsafety'
-gmake[1]: *** [CMakeFiles/cmTC_ecb8e.dir/build.make:78: CMakeFiles/cmTC_ecb8e.dir/src.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_1270d.dir/build.make:78: CMakeFiles/cmTC_1270d.dir/src.c.o] Error 1
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_ecb8e/fast] Error 2
+gmake: *** [Makefile:127: cmTC_1270d/fast] Error 2
 
 
 Source file was:
@@ -46,16 +46,16 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_CLANG_COMMENT_BLOCK_COMMANDS failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d7f29/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d7f29.dir/build.make CMakeFiles/cmTC_d7f29.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4e0bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4e0bc.dir/build.make CMakeFiles/cmTC_4e0bc.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d7f29.dir/src.c.o
-/usr/bin/cc -DHAVE_CLANG_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   /clang:-fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_d7f29.dir/src.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/src.c
+Building C object CMakeFiles/cmTC_4e0bc.dir/src.c.o
+/usr/bin/cc -DHAVE_CLANG_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   /clang:-fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_4e0bc.dir/src.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/src.c
 cc: warning: /clang:-fcomment-block-commands=threadsafety: linker input file unused because linking not done
 cc: error: /clang:-fcomment-block-commands=threadsafety: linker input file not found: No such file or directory
-gmake[1]: *** [CMakeFiles/cmTC_d7f29.dir/build.make:78: CMakeFiles/cmTC_d7f29.dir/src.c.o] Error 1
-gmake[1]: *** Deleting file 'CMakeFiles/cmTC_d7f29.dir/src.c.o'
+gmake[1]: *** [CMakeFiles/cmTC_4e0bc.dir/build.make:78: CMakeFiles/cmTC_4e0bc.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_4e0bc.dir/src.c.o'
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_d7f29/fast] Error 2
+gmake: *** [Makefile:127: cmTC_4e0bc/fast] Error 2
 
 
 Source file was:
@@ -63,18 +63,18 @@ int main(void) { return 0; }
 Determining if the _i64toa exist failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d3202/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d3202.dir/build.make CMakeFiles/cmTC_d3202.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ffdba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ffdba.dir/build.make CMakeFiles/cmTC_ffdba.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d3202.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_d3202.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_ffdba.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_ffdba.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘_i64toa’ undeclared (first use in this function)
    26 |   return ((int*)(&_i64toa))[argc];
       |                   ^~~~~~~
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
-gmake[1]: *** [CMakeFiles/cmTC_d3202.dir/build.make:78: CMakeFiles/cmTC_d3202.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_ffdba.dir/build.make:78: CMakeFiles/cmTC_ffdba.dir/CheckSymbolExists.c.o] Error 1
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_d3202/fast] Error 2
+gmake: *** [Makefile:127: cmTC_ffdba/fast] Error 2
 
 
 File /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -112,18 +112,18 @@ int main(int argc, char** argv)
 Determining if the itoa exist failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3740c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3740c.dir/build.make CMakeFiles/cmTC_3740c.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d301e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d301e.dir/build.make CMakeFiles/cmTC_d301e.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3740c.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_3740c.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_d301e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_d301e.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘itoa’ undeclared (first use in this function)
    26 |   return ((int*)(&itoa))[argc];
       |                   ^~~~
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
-gmake[1]: *** [CMakeFiles/cmTC_3740c.dir/build.make:78: CMakeFiles/cmTC_3740c.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_d301e.dir/build.make:78: CMakeFiles/cmTC_d301e.dir/CheckSymbolExists.c.o] Error 1
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_3740c/fast] Error 2
+gmake: *** [Makefile:127: cmTC_d301e/fast] Error 2
 
 
 File /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -161,18 +161,18 @@ int main(int argc, char** argv)
 Determining if the _ltoa exist failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7e2f5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7e2f5.dir/build.make CMakeFiles/cmTC_7e2f5.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1bcb0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1bcb0.dir/build.make CMakeFiles/cmTC_1bcb0.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7e2f5.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_7e2f5.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_1bcb0.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_1bcb0.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘_ltoa’ undeclared (first use in this function)
    26 |   return ((int*)(&_ltoa))[argc];
       |                   ^~~~~
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
-gmake[1]: *** [CMakeFiles/cmTC_7e2f5.dir/build.make:78: CMakeFiles/cmTC_7e2f5.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_1bcb0.dir/build.make:78: CMakeFiles/cmTC_1bcb0.dir/CheckSymbolExists.c.o] Error 1
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_7e2f5/fast] Error 2
+gmake: *** [Makefile:127: cmTC_1bcb0/fast] Error 2
 
 
 File /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -210,19 +210,19 @@ int main(int argc, char** argv)
 Determining if the sqr exist failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4395b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4395b.dir/build.make CMakeFiles/cmTC_4395b.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7f4e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7f4e.dir/build.make CMakeFiles/cmTC_f7f4e.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4395b.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_4395b.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_f7f4e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_f7f4e.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘sqr’ undeclared (first use in this function); did you mean ‘sqrt’?
    26 |   return ((int*)(&sqr))[argc];
       |                   ^~~
       |                   sqrt
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
-gmake[1]: *** [CMakeFiles/cmTC_4395b.dir/build.make:78: CMakeFiles/cmTC_4395b.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_f7f4e.dir/build.make:78: CMakeFiles/cmTC_f7f4e.dir/CheckSymbolExists.c.o] Error 1
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_4395b/fast] Error 2
+gmake: *** [Makefile:127: cmTC_f7f4e/fast] Error 2
 
 
 File /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -260,19 +260,19 @@ int main(int argc, char** argv)
 Determining if the strnstr exist failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2f1b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e2f1b.dir/build.make CMakeFiles/cmTC_e2f1b.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_60d8a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_60d8a.dir/build.make CMakeFiles/cmTC_60d8a.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e2f1b.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_e2f1b.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_60d8a.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_60d8a.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: error: ‘strnstr’ undeclared (first use in this function); did you mean ‘strstr’?
    26 |   return ((int*)(&strnstr))[argc];
       |                   ^~~~~~~
       |                   strstr
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:26:19: note: each undeclared identifier is reported only once for each function it appears in
-gmake[1]: *** [CMakeFiles/cmTC_e2f1b.dir/build.make:78: CMakeFiles/cmTC_e2f1b.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_60d8a.dir/build.make:78: CMakeFiles/cmTC_60d8a.dir/CheckSymbolExists.c.o] Error 1
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_e2f1b/fast] Error 2
+gmake: *** [Makefile:127: cmTC_60d8a/fast] Error 2
 
 
 File /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -310,17 +310,17 @@ int main(int argc, char** argv)
 Determining if the sysctlbyname exist failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85de2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85de2.dir/build.make CMakeFiles/cmTC_85de2.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_97e82/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_97e82.dir/build.make CMakeFiles/cmTC_97e82.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_85de2.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_85de2.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_97e82.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_97e82.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:3:10: fatal error: sys/sysctl.h: No such file or directory
     3 | #include <sys/sysctl.h>
       |          ^~~~~~~~~~~~~~
 compilation terminated.
-gmake[1]: *** [CMakeFiles/cmTC_85de2.dir/build.make:78: CMakeFiles/cmTC_85de2.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_97e82.dir/build.make:78: CMakeFiles/cmTC_97e82.dir/CheckSymbolExists.c.o] Error 1
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_85de2/fast] Error 2
+gmake: *** [Makefile:127: cmTC_97e82/fast] Error 2
 
 
 File /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -341,18 +341,18 @@ int main(int argc, char** argv)
 Determining if the elf_aux_info exist failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f1eb7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f1eb7.dir/build.make CMakeFiles/cmTC_f1eb7.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6d0e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6d0e.dir/build.make CMakeFiles/cmTC_f6d0e.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f1eb7.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_f1eb7.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_f6d0e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_f6d0e.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘elf_aux_info’ undeclared (first use in this function)
     8 |   return ((int*)(&elf_aux_info))[argc];
       |                   ^~~~~~~~~~~~
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-gmake[1]: *** [CMakeFiles/cmTC_f1eb7.dir/build.make:78: CMakeFiles/cmTC_f1eb7.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_f6d0e.dir/build.make:78: CMakeFiles/cmTC_f6d0e.dir/CheckSymbolExists.c.o] Error 1
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_f1eb7/fast] Error 2
+gmake: *** [Makefile:127: cmTC_f6d0e/fast] Error 2
 
 
 File /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -372,19 +372,19 @@ int main(int argc, char** argv)
 Determining if the posix_spawn_file_actions_addchdir exist failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1f092/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f092.dir/build.make CMakeFiles/cmTC_1f092.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fa498/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fa498.dir/build.make CMakeFiles/cmTC_fa498.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1f092.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_1f092.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_fa498.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_fa498.dir/CheckSymbolExists.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘posix_spawn_file_actions_addchdir’ undeclared (first use in this function); did you mean ‘posix_spawn_file_actions_addchdir_np’?
     8 |   return ((int*)(&posix_spawn_file_actions_addchdir))[argc];
       |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
       |                   posix_spawn_file_actions_addchdir_np
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-gmake[1]: *** [CMakeFiles/cmTC_1f092.dir/build.make:78: CMakeFiles/cmTC_1f092.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_fa498.dir/build.make:78: CMakeFiles/cmTC_fa498.dir/CheckSymbolExists.c.o] Error 1
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_1f092/fast] Error 2
+gmake: *** [Makefile:127: cmTC_fa498/fast] Error 2
 
 
 File /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -404,18 +404,18 @@ int main(int argc, char** argv)
 Performing C SOURCE FILE Test ICONV_IN_LIBICONV failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f873b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f873b.dir/build.make CMakeFiles/cmTC_f873b.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_17bed/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_17bed.dir/build.make CMakeFiles/cmTC_17bed.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f873b.dir/src.c.o
-/usr/bin/cc -DICONV_IN_LIBICONV  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_f873b.dir/src.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_f873b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f873b.dir/link.txt --verbose=1
-/usr/bin/cc   -D_GNU_SOURCE=1 CMakeFiles/cmTC_f873b.dir/src.c.o -o cmTC_f873b  -liconv 
+Building C object CMakeFiles/cmTC_17bed.dir/src.c.o
+/usr/bin/cc -DICONV_IN_LIBICONV  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_17bed.dir/src.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_17bed
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17bed.dir/link.txt --verbose=1
+/usr/bin/cc   -D_GNU_SOURCE=1 CMakeFiles/cmTC_17bed.dir/src.c.o -o cmTC_17bed  -liconv 
 /usr/bin/ld: cannot find -liconv: No such file or directory
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_f873b.dir/build.make:99: cmTC_f873b] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_17bed.dir/build.make:99: cmTC_17bed] Error 1
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_f873b/fast] Error 2
+gmake: *** [Makefile:127: cmTC_17bed/fast] Error 2
 
 
 Source file was:
@@ -428,22 +428,22 @@ Source file was:
 Performing C SOURCE FILE Test LIBC_HAS_WORKING_LIBUNWIND failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_427fb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_427fb.dir/build.make CMakeFiles/cmTC_427fb.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b8412/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b8412.dir/build.make CMakeFiles/cmTC_b8412.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_427fb.dir/src.c.o
-/usr/bin/cc -DLIBC_HAS_WORKING_LIBUNWIND  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_427fb.dir/src.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_427fb
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_427fb.dir/link.txt --verbose=1
-/usr/bin/cc   -D_GNU_SOURCE=1 CMakeFiles/cmTC_427fb.dir/src.c.o -o cmTC_427fb 
-/usr/bin/ld: CMakeFiles/cmTC_427fb.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_b8412.dir/src.c.o
+/usr/bin/cc -DLIBC_HAS_WORKING_LIBUNWIND  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_b8412.dir/src.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b8412
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8412.dir/link.txt --verbose=1
+/usr/bin/cc   -D_GNU_SOURCE=1 CMakeFiles/cmTC_b8412.dir/src.c.o -o cmTC_b8412 
+/usr/bin/ld: CMakeFiles/cmTC_b8412.dir/src.c.o: in function `main':
 src.c:(.text+0x36): undefined reference to `_Ux86_64_getcontext'
 /usr/bin/ld: src.c:(.text+0x45): undefined reference to `_Ux86_64_step'
 /usr/bin/ld: src.c:(.text+0x60): undefined reference to `_Ux86_64_get_reg'
 /usr/bin/ld: src.c:(.text+0x85): undefined reference to `_Ux86_64_get_proc_name'
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_427fb.dir/build.make:99: cmTC_427fb] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_b8412.dir/build.make:99: cmTC_b8412] Error 1
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_427fb/fast] Error 2
+gmake: *** [Makefile:127: cmTC_b8412/fast] Error 2
 
 
 Source file was:
@@ -464,21 +464,21 @@ Source file was:
 Performing C SOURCE FILE Test LIBUNWIND_HAS_WORKINGLIBUNWIND failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_39ac0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_39ac0.dir/build.make CMakeFiles/cmTC_39ac0.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_34d9c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_34d9c.dir/build.make CMakeFiles/cmTC_34d9c.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_39ac0.dir/src.c.o
-/usr/bin/cc -DLIBUNWIND_HAS_WORKINGLIBUNWIND  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_39ac0.dir/src.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_39ac0
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39ac0.dir/link.txt --verbose=1
-/usr/bin/cc   -D_GNU_SOURCE=1 CMakeFiles/cmTC_39ac0.dir/src.c.o -o cmTC_39ac0  -lunwind 
-/usr/bin/ld: CMakeFiles/cmTC_39ac0.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_34d9c.dir/src.c.o
+/usr/bin/cc -DLIBUNWIND_HAS_WORKINGLIBUNWIND  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_34d9c.dir/src.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_34d9c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34d9c.dir/link.txt --verbose=1
+/usr/bin/cc   -D_GNU_SOURCE=1 CMakeFiles/cmTC_34d9c.dir/src.c.o -o cmTC_34d9c  -lunwind 
+/usr/bin/ld: CMakeFiles/cmTC_34d9c.dir/src.c.o: in function `main':
 src.c:(.text+0x45): undefined reference to `_Ux86_64_step'
 /usr/bin/ld: src.c:(.text+0x60): undefined reference to `_Ux86_64_get_reg'
 /usr/bin/ld: src.c:(.text+0x85): undefined reference to `_Ux86_64_get_proc_name'
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_39ac0.dir/build.make:99: cmTC_39ac0] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_34d9c.dir/build.make:99: cmTC_34d9c] Error 1
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_39ac0/fast] Error 2
+gmake: *** [Makefile:127: cmTC_34d9c/fast] Error 2
 
 
 Source file was:
@@ -499,17 +499,17 @@ Source file was:
 Determining if the include file pthread_np.h exists failed with the following output:
 Change Dir: /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_219d1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_219d1.dir/build.make CMakeFiles/cmTC_219d1.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_92a9a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_92a9a.dir/build.make CMakeFiles/cmTC_92a9a.dir/build
 gmake[1]: Entering directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_219d1.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -D_GNU_SOURCE=1 -D_REENTRANT -pthread -o CMakeFiles/cmTC_219d1.dir/CheckIncludeFile.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Building C object CMakeFiles/cmTC_92a9a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -D_GNU_SOURCE=1 -D_REENTRANT -pthread -o CMakeFiles/cmTC_92a9a.dir/CheckIncludeFile.c.o -c /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 /home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: pthread_np.h: No such file or directory
     1 | #include <pthread_np.h>
       |          ^~~~~~~~~~~~~~
 compilation terminated.
-gmake[1]: *** [CMakeFiles/cmTC_219d1.dir/build.make:78: CMakeFiles/cmTC_219d1.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: *** [CMakeFiles/cmTC_92a9a.dir/build.make:78: CMakeFiles/cmTC_92a9a.dir/CheckIncludeFile.c.o] Error 1
 gmake[1]: Leaving directory '/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_219d1/fast] Error 2
+gmake: *** [Makefile:127: cmTC_92a9a/fast] Error 2
 
 
 

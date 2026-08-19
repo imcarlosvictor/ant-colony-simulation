@@ -169,6 +169,54 @@ SDL_uclibc/fast:
 	$(MAKE) $(MAKESILENT) -f SDL/vendored/SDL/CMakeFiles/SDL_uclibc.dir/build.make SDL/vendored/SDL/CMakeFiles/SDL_uclibc.dir/build
 .PHONY : SDL_uclibc/fast
 
+src/ant.o: src/ant.cpp.o
+.PHONY : src/ant.o
+
+# target to build an object file
+src/ant.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/ant.cpp.o
+.PHONY : src/ant.cpp.o
+
+src/ant.i: src/ant.cpp.i
+.PHONY : src/ant.i
+
+# target to preprocess a source file
+src/ant.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/ant.cpp.i
+.PHONY : src/ant.cpp.i
+
+src/ant.s: src/ant.cpp.s
+.PHONY : src/ant.s
+
+# target to generate assembly for a file
+src/ant.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/ant.cpp.s
+.PHONY : src/ant.cpp.s
+
+src/colony.o: src/colony.cpp.o
+.PHONY : src/colony.o
+
+# target to build an object file
+src/colony.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/colony.cpp.o
+.PHONY : src/colony.cpp.o
+
+src/colony.i: src/colony.cpp.i
+.PHONY : src/colony.i
+
+# target to preprocess a source file
+src/colony.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/colony.cpp.i
+.PHONY : src/colony.cpp.i
+
+src/colony.s: src/colony.cpp.s
+.PHONY : src/colony.s
+
+# target to generate assembly for a file
+src/colony.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/colony.cpp.s
+.PHONY : src/colony.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -193,6 +241,78 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/map.o: src/map.cpp.o
+.PHONY : src/map.o
+
+# target to build an object file
+src/map.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/map.cpp.o
+.PHONY : src/map.cpp.o
+
+src/map.i: src/map.cpp.i
+.PHONY : src/map.i
+
+# target to preprocess a source file
+src/map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/map.cpp.i
+.PHONY : src/map.cpp.i
+
+src/map.s: src/map.cpp.s
+.PHONY : src/map.s
+
+# target to generate assembly for a file
+src/map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/map.cpp.s
+.PHONY : src/map.cpp.s
+
+src/tile.o: src/tile.cpp.o
+.PHONY : src/tile.o
+
+# target to build an object file
+src/tile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/tile.cpp.o
+.PHONY : src/tile.cpp.o
+
+src/tile.i: src/tile.cpp.i
+.PHONY : src/tile.i
+
+# target to preprocess a source file
+src/tile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/tile.cpp.i
+.PHONY : src/tile.cpp.i
+
+src/tile.s: src/tile.cpp.s
+.PHONY : src/tile.s
+
+# target to generate assembly for a file
+src/tile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/tile.cpp.s
+.PHONY : src/tile.cpp.s
+
+src/window.o: src/window.cpp.o
+.PHONY : src/window.o
+
+# target to build an object file
+src/window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/window.cpp.o
+.PHONY : src/window.cpp.o
+
+src/window.i: src/window.cpp.i
+.PHONY : src/window.i
+
+# target to preprocess a source file
+src/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/window.cpp.i
+.PHONY : src/window.cpp.i
+
+src/window.s: src/window.cpp.s
+.PHONY : src/window.s
+
+# target to generate assembly for a file
+src/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/window.cpp.s
+.PHONY : src/window.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -205,9 +325,24 @@ help:
 	@echo "... SDL3_test"
 	@echo "... SDL_uclibc"
 	@echo "... ant-colony-sim"
+	@echo "... src/ant.o"
+	@echo "... src/ant.i"
+	@echo "... src/ant.s"
+	@echo "... src/colony.o"
+	@echo "... src/colony.i"
+	@echo "... src/colony.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/map.o"
+	@echo "... src/map.i"
+	@echo "... src/map.s"
+	@echo "... src/tile.o"
+	@echo "... src/tile.i"
+	@echo "... src/tile.s"
+	@echo "... src/window.o"
+	@echo "... src/window.i"
+	@echo "... src/window.s"
 .PHONY : help
 
 
