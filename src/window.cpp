@@ -30,21 +30,6 @@ int Window::createWindow() {
 		return 1;
 	}
 
-	/* /1* this->surface = SDL_LoadBMP("sample.bmp"); *1/ */
-	/* this->surface = SDL_LoadJPG("../assets/ant.jpg"); */
-	/* if (!surface) { */
-	/* 	SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Couldn't create texture from surface: %s", SDL_GetError()); */
-	/* 	return 3; */
-	/* } */
-
-	/* this->texture = SDL_CreateTextureFromSurface(this->renderer, this->surface); */
-	/* SDL_DestroySurface(this->surface); */
-	/* this->surface = nullptr; */
-	/* if (!texture) { */
-	/* 	SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Couldn't create texture from surface: %s", SDL_GetError()); */
-	/* 	return 3; */
-	/* } */
-
 	// Logic for window creation and deletion from user inputs
 	bool quit = false;
 	while (!quit) {
