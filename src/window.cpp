@@ -1,4 +1,5 @@
 #include "../include/window.h"
+#include "../include/map.h"
 
 
 Window::Window(int width, int height, std::string title) {
@@ -49,4 +50,11 @@ int Window::createWindow() {
 
 void Window::mouseEvent(std::vector<Tile>* maze) {
 
+}
+
+void Window::initilizeSimulation() {
+	// Create the map
+	int width = this->width / 10; // tile dimensions: 10x10
+	int height = this->height / 10;
+	Map sim_map = Map(width, height);
 }

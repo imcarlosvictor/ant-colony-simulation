@@ -11,6 +11,7 @@ class Window {
 		~Window(); // clean up window variables
 		int createWindow();
 		void mouseEvent(std::vector<Tile>* maze);
+		void initilizeSimulation();
 
 	private:
 		// window parameters 
