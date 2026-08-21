@@ -13,13 +13,14 @@ void Map::createMap() {
 	int grid_y = 0;
 
 	for (int i = 0; i < this->height; i++) {
-		this->maze.push_back(new Tile(this->renderer, this->width, this->height, grid_y, grid_x));
+		this->map.push_back(new Tile(this->renderer, this->width, this->height, grid_y, grid_x));
 		for (int j = 0; j < this->width; j++) {
-			this->maze.push_back(new Tile(this->renderer, this->width, this->height, grid_y, grid_x));
+			this->map.push_back(new Tile(this->renderer, this->width, this->height, grid_y, grid_x));
 			grid_x += 10;
 		}
 		grid_y += 10;
 	}
+	std::cout << "map size: "<< this->map.size() << std::endl;
 }
 
 int Map::getWidth() {

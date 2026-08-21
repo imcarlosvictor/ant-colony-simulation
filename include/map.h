@@ -15,7 +15,7 @@ class Map {
 	private:
 		int width;
 		int height;
-		std::vector<Tile*> maze;
+		std::vector<Tile*> map;
 
 		SDL_Renderer* renderer;
 };

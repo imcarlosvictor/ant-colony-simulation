@@ -55,4 +55,5 @@ void Window::mouseEvent(std::vector<Tile>* maze) {
 void Window::initilizeSimulation() {
 	// Create the map
 	Map sim_map = Map(width, height, this->renderer);
+	sim_map.createMap();
 }

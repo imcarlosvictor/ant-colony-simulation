@@ -20,7 +20,7 @@ class Window {
 		int height;
 		std::string title;
 
-		std::vector<Tile>* maze;
+		std::vector<Tile>* map;
 
 		SDL_Window* window;
 		SDL_Renderer* renderer;
