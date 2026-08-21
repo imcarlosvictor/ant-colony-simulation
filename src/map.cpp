@@ -1,22 +1,24 @@
 #include "../include/map.h"
 
 
-Map::Map(int width, int height, SDL_Renderer* renderer) {
-	this->width = width;
-	this->height = height;
+Map::Map(int window_width, int window_height, SDL_Renderer* renderer) {
+	this->width = window_width / 10;
+	this->height = window_height / 10;
 	this->renderer = renderer;
 }
 
 void Map::createMap() {
+	// Coorindates for each til:e
 	int grid_x = 0;
 	int grid_y = 0;
 
-	for (int i = 0; i < grid_y; i++) {
-		for (int j = 0; j < grid_x; j++) {
+	for (int i = 0; i < this->height; i++) {
+		this->maze.push_back(new Tile(this->renderer, this->width, this->height, grid_y, grid_x));
+		for (int j = 0; j < this->width; j++) {
 			this->maze.push_back(new Tile(this->renderer, this->width, this->height, grid_y, grid_x));
-			grid_x += this->width;
+			grid_x += 10;
 		}
-		grid_x = 0; // set to 0 once starting a new row
+		grid_y += 10;
 	}
 }
 

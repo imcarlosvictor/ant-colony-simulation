@@ -185,4 +185,5 @@ CMakeFiles/ant-colony-sim.dir/src/window.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/lucas/code/my-projects/ant-colony-sim/src/../include/tile.h
+ /home/lucas/code/my-projects/ant-colony-sim/src/../include/tile.h \
+ /home/lucas/code/my-projects/ant-colony-sim/src/../include/map.h

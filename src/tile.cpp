@@ -21,7 +21,8 @@ void Tile::renderTile() {
 	// Determine the tile type and set the color
 	switch (this->tile_state) {
 		case 0:
-			SDL_SetRenderDrawColor(this->renderer, 32, 32, 32, 1); // Floor, black
+			/* SDL_SetRenderDrawColor(this->renderer, 32, 32, 32, 1); // Floor, black */
+			SDL_SetRenderDrawColor(this->renderer, 97, 142, 247, 1); // Food, blue
 			break;
 		case 1:
 			SDL_SetRenderDrawColor(this->renderer, 218, 218, 218, 1); // Wall, grey 
@@ -45,7 +46,7 @@ void Tile::setFood() {
 
 }
 
-State Tile::getTileInfo() {
+TileState Tile::getTileInfo() {
 	return this->tile_state;
 }
 

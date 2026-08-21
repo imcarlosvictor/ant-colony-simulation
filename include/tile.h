@@ -1,3 +1,4 @@
+#pragma once
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_rect.h>
 #include <SDL3/SDL_render.h>
@@ -5,7 +6,7 @@
 #include <string>
 
 
-enum State {
+enum TileState {
 	FLOOR,
 	WALL,
 	FOOD,
@@ -18,12 +19,12 @@ class Tile {
 		void renderTile();
 		void setTrail();
 		void setFood();
-		State getTileInfo();
+		TileState getTileInfo();
 		int getWidth();
 		int getHeight();
 
 	private:
-		State tile_state;
+		TileState tile_state;
 		int grid_x;
 		int grid_y;
 		int width;
