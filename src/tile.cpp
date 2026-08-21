@@ -2,23 +2,19 @@
 
 
 Tile::Tile(SDL_Renderer* renderer, int width, int height, int x, int y) {
-	this->x = x;
-	this->y = y;
+	this->grid_x = x;
+	this->grid_y = y;
 	this->width = width;
 	this->height = height;
 	this->renderer = renderer;
-}
-
-void Tile::setWall() {
-
 }
 
 void Tile::renderTile() {
 	/* SDL_FRect tile = SDL_FRect(this->x, this->y, this->width, this->height); */
 	// Create a tile using a typedef struct
 	SDL_FRect rect;
-	rect.x = this->x;
-	rect.y = this->y;
+	rect.x = this->grid_x;
+	rect.y = this->grid_y;
 	rect.w = this->width;
 	rect.h = this->height;
 
@@ -42,6 +38,10 @@ void Tile::renderTile() {
 }
 
 void Tile::setTrail() {
+
+}
+
+void Tile::setFood() {
 
 }
 

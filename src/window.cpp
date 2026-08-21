@@ -56,5 +56,5 @@ void Window::initilizeSimulation() {
 	// Create the map
 	int width = this->width / 10; // tile dimensions: 10x10
 	int height = this->height / 10;
-	Map sim_map = Map(width, height);
+	Map sim_map = Map(width, height, this->renderer);
 }

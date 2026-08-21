@@ -15,8 +15,7 @@ enum State {
 class Tile {
 	public:
 		Tile(SDL_Renderer* renderer, int width, int height, int x, int y);
-		void setWall();
-		void setFloor();
+		void renderTile();
 		void setTrail();
 		void setFood();
 		State getTileInfo();
@@ -25,8 +24,8 @@ class Tile {
 
 	private:
 		State tile_state;
-		int x;
-		int y;
+		int grid_x;
+		int grid_y;
 		int width;
 		int height;
 		SDL_Renderer* renderer;
