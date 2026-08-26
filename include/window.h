@@ -1,9 +1,11 @@
 #pragma once
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
+#include <iostream>
 #include <string>
 #include <vector>
 
+#include "map.h"
 #include "tile.h"
 
 class Window {
@@ -12,15 +14,13 @@ class Window {
 		~Window(); // clean up window variables
 		int createWindow();
 		void mouseEvent(std::vector<Tile>* maze);
-		void initilizeSimulation();
+		void startSimulation();
 
 	private:
-		// window parameters 
 		int width;
 		int height;
 		std::string title;
-
-		std::vector<Tile>* map;
+		Map* simulation_map;
 
 		SDL_Window* window;
 		SDL_Renderer* renderer;

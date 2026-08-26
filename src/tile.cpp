@@ -1,12 +1,13 @@
 #include "../include/tile.h"
 
 
-Tile::Tile(SDL_Renderer* renderer, int width, int height, int x, int y) {
-	this->grid_x = x;
-	this->grid_y = y;
+Tile::Tile(SDL_Renderer* renderer, int width, int height, int col, int row) {
 	this->width = width;
 	this->height = height;
+	this->grid_x = col * this->width; // determine the x coordinate
+	this->grid_y = row * this->height; // determine the y coordinate
 	this->renderer = renderer;
+	this->tile_state = FLOOR; // initialize all tiles as floor
 }
 
 void Tile::renderTile() {
@@ -21,20 +22,22 @@ void Tile::renderTile() {
 	// Determine the tile type and set the color
 	switch (this->tile_state) {
 		case 0:
-			/* SDL_SetRenderDrawColor(this->renderer, 32, 32, 32, 1); // Floor, black */
-			SDL_SetRenderDrawColor(this->renderer, 97, 142, 247, 1); // Food, blue
+			/* SDL_SetRenderDrawColor(this->renderer, 32, 32, 32, 255); // Floor, black */
+			SDL_SetRenderDrawColor(this->renderer, 247, 224, 97, 255); // Pheromone, yellow
+			std::cout << "hell0" << std::endl;
 			break;
 		case 1:
-			SDL_SetRenderDrawColor(this->renderer, 218, 218, 218, 1); // Wall, grey 
+			SDL_SetRenderDrawColor(this->renderer, 218, 218, 218, 255); // Wall, grey 
 			break;
 		case 2:
-			SDL_SetRenderDrawColor(this->renderer, 97, 142, 247, 1); // Food, blue
+			SDL_SetRenderDrawColor(this->renderer, 97, 142, 247, 255); // Food, blue
 			break;
 		case 3:
-			SDL_SetRenderDrawColor(this->renderer, 247, 224, 97, 1); // Pheromone, yellow
+			SDL_SetRenderDrawColor(this->renderer, 247, 224, 97, 255); // Pheromone, yellow
 			break;
 	};
 
+	std::cout << "bye" << std::endl;
 	SDL_RenderFillRect(this->renderer, &rect);
 }
 

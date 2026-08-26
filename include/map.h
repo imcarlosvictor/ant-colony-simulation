@@ -1,14 +1,16 @@
 #pragma once
 #include <vector>
-#include <string>
+#include <iostream>
 
 #include "tile.h"
 
 
 class Map {
 	public:
+		Map();
 		Map(int width, int height, SDL_Renderer* renderer);
-		void createMap();
+		void createMap(); // initialize map
+		void renderMap(); // renders the map while the window is active
 		int getWidth();
 		int getHeight();
 

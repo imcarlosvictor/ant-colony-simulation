@@ -11,9 +11,11 @@ Window::Window(int width, int height, std::string title) {
 	this->surface = nullptr;
 	this->texture = nullptr;
 	this->window_flags = 0;
+	/* this->simulation_map = Null; */
 }
 
 Window::~Window() {
+	if (this->simulation_map) delete this->simulation_map;
 	if (this->texture) SDL_DestroyTexture(this->texture);
 	if (this->renderer) SDL_DestroyRenderer(this->renderer);
 	if (this->window) SDL_DestroyWindow(this->window);
@@ -31,6 +33,9 @@ int Window::createWindow() {
 		return 1;
 	}
 
+	// Create map
+	this->startSimulation();
+
 	// Logic for window creation and deletion from user inputs
 	bool quit = false;
 	while (!quit) {
@@ -43,6 +48,9 @@ int Window::createWindow() {
 		SDL_RenderClear(this->renderer);
 		SDL_RenderTexture(this->renderer, this->texture, NULL, NULL);
 		SDL_RenderPresent(this->renderer);
+
+		// Render the map each loop for updates
+		this->simulation_map->renderMap();
 	}	
 	
 	return 0;
@@ -52,8 +60,7 @@ void Window::mouseEvent(std::vector<Tile>* maze) {
 
 }
 
-void Window::initilizeSimulation() {
-	// Create the map
-	Map sim_map = Map(width, height, this->renderer);
-	sim_map.createMap();
+void Window::startSimulation() {
+	this->simulation_map = new Map(this->width, this->height, this->renderer);
+	this->simulation_map->createMap();
 }
