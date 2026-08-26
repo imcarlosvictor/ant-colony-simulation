@@ -44,13 +44,15 @@ int Window::createWindow() {
 				quit = true;
 			}
 		}
+
 		SDL_SetRenderDrawColor(renderer, 0x00, 0x00, 0x00, 0xFF);
 		SDL_RenderClear(this->renderer);
 		SDL_RenderTexture(this->renderer, this->texture, NULL, NULL);
-		SDL_RenderPresent(this->renderer);
-
+		
 		// Render the map each loop for updates
 		this->simulation_map->renderMap();
+		SDL_RenderPresent(this->renderer);
+
 	}	
 	
 	return 0;

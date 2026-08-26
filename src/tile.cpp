@@ -24,7 +24,6 @@ void Tile::renderTile() {
 		case 0:
 			/* SDL_SetRenderDrawColor(this->renderer, 32, 32, 32, 255); // Floor, black */
 			SDL_SetRenderDrawColor(this->renderer, 247, 224, 97, 255); // Pheromone, yellow
-			std::cout << "hell0" << std::endl;
 			break;
 		case 1:
 			SDL_SetRenderDrawColor(this->renderer, 218, 218, 218, 255); // Wall, grey 
@@ -37,7 +36,6 @@ void Tile::renderTile() {
 			break;
 	};
 
-	std::cout << "bye" << std::endl;
 	SDL_RenderFillRect(this->renderer, &rect);
 }
 
