@@ -51,8 +51,7 @@ int Window::createWindow() {
 		
 		// Render the map each loop for updates
 		this->simulation_map->renderMap();
-		SDL_RenderPresent(this->renderer);
-
+		SDL_RenderPresent(this->renderer); // displays everything drawn/renderered
 	}	
 	
 	return 0;

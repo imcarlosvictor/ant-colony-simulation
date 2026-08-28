@@ -19,7 +19,8 @@ void Map::createMap() {
 	std::cout << "map size: "<< this->map.size() << std::endl;
 	for (int row = 0; row < this->height; row++) {
 		for (int col = 0; col < this->width; col++) {
-			this->map.push_back(new Tile(this->renderer, TILE_SIZE, TILE_SIZE, col, row));
+			TileState state = (col % 10 == 0) ? PHEROMONE : FLOOR;
+				this->map.push_back(new Tile(this->renderer, TILE_SIZE, TILE_SIZE, col, row, state));
 		}
 	}
 	std::cout << "map size: "<< this->map.size() << std::endl;
@@ -29,7 +30,6 @@ void Map::renderMap() {
 	/*
 	 * Renders the map while the window is active
 	 */
-
 	for (auto* tile : this->map) {
 		tile->renderTile();
 	}
