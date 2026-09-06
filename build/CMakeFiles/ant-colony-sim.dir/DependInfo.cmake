@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/lucas/code/my-projects/ant-colony-sim/src/ant.cpp" "CMakeFiles/ant-colony-sim.dir/src/ant.cpp.o" "gcc" "CMakeFiles/ant-colony-sim.dir/src/ant.cpp.o.d"
   "/home/lucas/code/my-projects/ant-colony-sim/src/colony.cpp" "CMakeFiles/ant-colony-sim.dir/src/colony.cpp.o" "gcc" "CMakeFiles/ant-colony-sim.dir/src/colony.cpp.o.d"
+  "/home/lucas/code/my-projects/ant-colony-sim/src/gui.cpp" "CMakeFiles/ant-colony-sim.dir/src/gui.cpp.o" "gcc" "CMakeFiles/ant-colony-sim.dir/src/gui.cpp.o.d"
   "/home/lucas/code/my-projects/ant-colony-sim/src/main.cpp" "CMakeFiles/ant-colony-sim.dir/src/main.cpp.o" "gcc" "CMakeFiles/ant-colony-sim.dir/src/main.cpp.o.d"
   "/home/lucas/code/my-projects/ant-colony-sim/src/map.cpp" "CMakeFiles/ant-colony-sim.dir/src/map.cpp.o" "gcc" "CMakeFiles/ant-colony-sim.dir/src/map.cpp.o.d"
   "/home/lucas/code/my-projects/ant-colony-sim/src/tile.cpp" "CMakeFiles/ant-colony-sim.dir/src/tile.cpp.o" "gcc" "CMakeFiles/ant-colony-sim.dir/src/tile.cpp.o.d"
@@ -18,7 +19,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lucas/code/my-projects/ant-colony-sim/build/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/DependInfo.cmake"
+  "/home/lucas/code/my-projects/ant-colony-sim/build/CMakeFiles/imgui.dir/DependInfo.cmake"
+  "/home/lucas/code/my-projects/ant-colony-sim/build/lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

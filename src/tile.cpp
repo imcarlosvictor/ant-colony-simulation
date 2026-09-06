@@ -36,17 +36,16 @@ void Tile::renderTile() {
 	// Determine the tile type and set the color
 	switch (this->tile_state) {
 		case 0:
-			/* SDL_SetRenderDrawColor(this->renderer, 32, 32, 32, 255); // Floor, black */
-			SDL_SetRenderDrawColor(this->renderer, 0, 0, 0, 255); // Floor, black
+			SDL_SetRenderDrawColor(this->renderer, 218, 218, 218, 255); // Floor, grey 
 			break;
 		case 1:
-			SDL_SetRenderDrawColor(this->renderer, 218, 218, 218, 255); // Wall, grey 
+			SDL_SetRenderDrawColor(this->renderer, 0, 0, 0, 255); // Wall, black
 			break;
 		case 2:
-			SDL_SetRenderDrawColor(this->renderer, 97, 142, 247, 255); // Food, blue
+			SDL_SetRenderDrawColor(this->renderer, 247, 224, 97, 255); // Food, yellow
 			break;
 		case 3:
-			SDL_SetRenderDrawColor(this->renderer, 247, 224, 97, 255); // Pheromone, yellow
+			SDL_SetRenderDrawColor(this->renderer, 97, 142, 247, 255); // Pheromone, blue
 			break;
 	};
 
@@ -72,4 +71,3 @@ int Tile::getWidth() {
 int Tile::getHeight() {
 	return this->height;
 }
-

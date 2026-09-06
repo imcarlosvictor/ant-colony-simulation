@@ -118,6 +118,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named imgui
+
+# Build rule for target.
+imgui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imgui
+.PHONY : imgui
+
+# fast build rule for target.
+imgui/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/build
+.PHONY : imgui/fast
+
+#=============================================================================
 # Target rules for targets named ant-colony-sim
 
 # Build rule for target.
@@ -140,7 +153,7 @@ SDL3-shared: cmake_check_build_system
 
 # fast build rule for target.
 SDL3-shared/fast:
-	$(MAKE) $(MAKESILENT) -f SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/build.make SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/build
+	$(MAKE) $(MAKESILENT) -f lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/build.make lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/build
 .PHONY : SDL3-shared/fast
 
 #=============================================================================
@@ -153,7 +166,7 @@ SDL3_test: cmake_check_build_system
 
 # fast build rule for target.
 SDL3_test/fast:
-	$(MAKE) $(MAKESILENT) -f SDL/vendored/SDL/CMakeFiles/SDL3_test.dir/build.make SDL/vendored/SDL/CMakeFiles/SDL3_test.dir/build
+	$(MAKE) $(MAKESILENT) -f lib/SDL/vendored/SDL/CMakeFiles/SDL3_test.dir/build.make lib/SDL/vendored/SDL/CMakeFiles/SDL3_test.dir/build
 .PHONY : SDL3_test/fast
 
 #=============================================================================
@@ -166,8 +179,176 @@ SDL_uclibc: cmake_check_build_system
 
 # fast build rule for target.
 SDL_uclibc/fast:
-	$(MAKE) $(MAKESILENT) -f SDL/vendored/SDL/CMakeFiles/SDL_uclibc.dir/build.make SDL/vendored/SDL/CMakeFiles/SDL_uclibc.dir/build
+	$(MAKE) $(MAKESILENT) -f lib/SDL/vendored/SDL/CMakeFiles/SDL_uclibc.dir/build.make lib/SDL/vendored/SDL/CMakeFiles/SDL_uclibc.dir/build
 .PHONY : SDL_uclibc/fast
+
+lib/imgui/backends/imgui_impl_sdl3.o: lib/imgui/backends/imgui_impl_sdl3.cpp.o
+.PHONY : lib/imgui/backends/imgui_impl_sdl3.o
+
+# target to build an object file
+lib/imgui/backends/imgui_impl_sdl3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.o
+.PHONY : lib/imgui/backends/imgui_impl_sdl3.cpp.o
+
+lib/imgui/backends/imgui_impl_sdl3.i: lib/imgui/backends/imgui_impl_sdl3.cpp.i
+.PHONY : lib/imgui/backends/imgui_impl_sdl3.i
+
+# target to preprocess a source file
+lib/imgui/backends/imgui_impl_sdl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.i
+.PHONY : lib/imgui/backends/imgui_impl_sdl3.cpp.i
+
+lib/imgui/backends/imgui_impl_sdl3.s: lib/imgui/backends/imgui_impl_sdl3.cpp.s
+.PHONY : lib/imgui/backends/imgui_impl_sdl3.s
+
+# target to generate assembly for a file
+lib/imgui/backends/imgui_impl_sdl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/backends/imgui_impl_sdl3.cpp.s
+.PHONY : lib/imgui/backends/imgui_impl_sdl3.cpp.s
+
+lib/imgui/backends/imgui_impl_sdlrenderer3.o: lib/imgui/backends/imgui_impl_sdlrenderer3.cpp.o
+.PHONY : lib/imgui/backends/imgui_impl_sdlrenderer3.o
+
+# target to build an object file
+lib/imgui/backends/imgui_impl_sdlrenderer3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/backends/imgui_impl_sdlrenderer3.cpp.o
+.PHONY : lib/imgui/backends/imgui_impl_sdlrenderer3.cpp.o
+
+lib/imgui/backends/imgui_impl_sdlrenderer3.i: lib/imgui/backends/imgui_impl_sdlrenderer3.cpp.i
+.PHONY : lib/imgui/backends/imgui_impl_sdlrenderer3.i
+
+# target to preprocess a source file
+lib/imgui/backends/imgui_impl_sdlrenderer3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/backends/imgui_impl_sdlrenderer3.cpp.i
+.PHONY : lib/imgui/backends/imgui_impl_sdlrenderer3.cpp.i
+
+lib/imgui/backends/imgui_impl_sdlrenderer3.s: lib/imgui/backends/imgui_impl_sdlrenderer3.cpp.s
+.PHONY : lib/imgui/backends/imgui_impl_sdlrenderer3.s
+
+# target to generate assembly for a file
+lib/imgui/backends/imgui_impl_sdlrenderer3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/backends/imgui_impl_sdlrenderer3.cpp.s
+.PHONY : lib/imgui/backends/imgui_impl_sdlrenderer3.cpp.s
+
+lib/imgui/imgui.o: lib/imgui/imgui.cpp.o
+.PHONY : lib/imgui/imgui.o
+
+# target to build an object file
+lib/imgui/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/imgui.cpp.o
+.PHONY : lib/imgui/imgui.cpp.o
+
+lib/imgui/imgui.i: lib/imgui/imgui.cpp.i
+.PHONY : lib/imgui/imgui.i
+
+# target to preprocess a source file
+lib/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/imgui.cpp.i
+.PHONY : lib/imgui/imgui.cpp.i
+
+lib/imgui/imgui.s: lib/imgui/imgui.cpp.s
+.PHONY : lib/imgui/imgui.s
+
+# target to generate assembly for a file
+lib/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/imgui.cpp.s
+.PHONY : lib/imgui/imgui.cpp.s
+
+lib/imgui/imgui_demo.o: lib/imgui/imgui_demo.cpp.o
+.PHONY : lib/imgui/imgui_demo.o
+
+# target to build an object file
+lib/imgui/imgui_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/imgui_demo.cpp.o
+.PHONY : lib/imgui/imgui_demo.cpp.o
+
+lib/imgui/imgui_demo.i: lib/imgui/imgui_demo.cpp.i
+.PHONY : lib/imgui/imgui_demo.i
+
+# target to preprocess a source file
+lib/imgui/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/imgui_demo.cpp.i
+.PHONY : lib/imgui/imgui_demo.cpp.i
+
+lib/imgui/imgui_demo.s: lib/imgui/imgui_demo.cpp.s
+.PHONY : lib/imgui/imgui_demo.s
+
+# target to generate assembly for a file
+lib/imgui/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/imgui_demo.cpp.s
+.PHONY : lib/imgui/imgui_demo.cpp.s
+
+lib/imgui/imgui_draw.o: lib/imgui/imgui_draw.cpp.o
+.PHONY : lib/imgui/imgui_draw.o
+
+# target to build an object file
+lib/imgui/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/imgui_draw.cpp.o
+.PHONY : lib/imgui/imgui_draw.cpp.o
+
+lib/imgui/imgui_draw.i: lib/imgui/imgui_draw.cpp.i
+.PHONY : lib/imgui/imgui_draw.i
+
+# target to preprocess a source file
+lib/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/imgui_draw.cpp.i
+.PHONY : lib/imgui/imgui_draw.cpp.i
+
+lib/imgui/imgui_draw.s: lib/imgui/imgui_draw.cpp.s
+.PHONY : lib/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+lib/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/imgui_draw.cpp.s
+.PHONY : lib/imgui/imgui_draw.cpp.s
+
+lib/imgui/imgui_tables.o: lib/imgui/imgui_tables.cpp.o
+.PHONY : lib/imgui/imgui_tables.o
+
+# target to build an object file
+lib/imgui/imgui_tables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/imgui_tables.cpp.o
+.PHONY : lib/imgui/imgui_tables.cpp.o
+
+lib/imgui/imgui_tables.i: lib/imgui/imgui_tables.cpp.i
+.PHONY : lib/imgui/imgui_tables.i
+
+# target to preprocess a source file
+lib/imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/imgui_tables.cpp.i
+.PHONY : lib/imgui/imgui_tables.cpp.i
+
+lib/imgui/imgui_tables.s: lib/imgui/imgui_tables.cpp.s
+.PHONY : lib/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+lib/imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/imgui_tables.cpp.s
+.PHONY : lib/imgui/imgui_tables.cpp.s
+
+lib/imgui/imgui_widgets.o: lib/imgui/imgui_widgets.cpp.o
+.PHONY : lib/imgui/imgui_widgets.o
+
+# target to build an object file
+lib/imgui/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/imgui_widgets.cpp.o
+.PHONY : lib/imgui/imgui_widgets.cpp.o
+
+lib/imgui/imgui_widgets.i: lib/imgui/imgui_widgets.cpp.i
+.PHONY : lib/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+lib/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/imgui_widgets.cpp.i
+.PHONY : lib/imgui/imgui_widgets.cpp.i
+
+lib/imgui/imgui_widgets.s: lib/imgui/imgui_widgets.cpp.s
+.PHONY : lib/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+lib/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/lib/imgui/imgui_widgets.cpp.s
+.PHONY : lib/imgui/imgui_widgets.cpp.s
 
 src/ant.o: src/ant.cpp.o
 .PHONY : src/ant.o
@@ -216,6 +397,30 @@ src/colony.s: src/colony.cpp.s
 src/colony.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/colony.cpp.s
 .PHONY : src/colony.cpp.s
+
+src/gui.o: src/gui.cpp.o
+.PHONY : src/gui.o
+
+# target to build an object file
+src/gui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/gui.cpp.o
+.PHONY : src/gui.cpp.o
+
+src/gui.i: src/gui.cpp.i
+.PHONY : src/gui.i
+
+# target to preprocess a source file
+src/gui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/gui.cpp.i
+.PHONY : src/gui.cpp.i
+
+src/gui.s: src/gui.cpp.s
+.PHONY : src/gui.s
+
+# target to generate assembly for a file
+src/gui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ant-colony-sim.dir/build.make CMakeFiles/ant-colony-sim.dir/src/gui.cpp.s
+.PHONY : src/gui.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -325,12 +530,37 @@ help:
 	@echo "... SDL3_test"
 	@echo "... SDL_uclibc"
 	@echo "... ant-colony-sim"
+	@echo "... imgui"
+	@echo "... lib/imgui/backends/imgui_impl_sdl3.o"
+	@echo "... lib/imgui/backends/imgui_impl_sdl3.i"
+	@echo "... lib/imgui/backends/imgui_impl_sdl3.s"
+	@echo "... lib/imgui/backends/imgui_impl_sdlrenderer3.o"
+	@echo "... lib/imgui/backends/imgui_impl_sdlrenderer3.i"
+	@echo "... lib/imgui/backends/imgui_impl_sdlrenderer3.s"
+	@echo "... lib/imgui/imgui.o"
+	@echo "... lib/imgui/imgui.i"
+	@echo "... lib/imgui/imgui.s"
+	@echo "... lib/imgui/imgui_demo.o"
+	@echo "... lib/imgui/imgui_demo.i"
+	@echo "... lib/imgui/imgui_demo.s"
+	@echo "... lib/imgui/imgui_draw.o"
+	@echo "... lib/imgui/imgui_draw.i"
+	@echo "... lib/imgui/imgui_draw.s"
+	@echo "... lib/imgui/imgui_tables.o"
+	@echo "... lib/imgui/imgui_tables.i"
+	@echo "... lib/imgui/imgui_tables.s"
+	@echo "... lib/imgui/imgui_widgets.o"
+	@echo "... lib/imgui/imgui_widgets.i"
+	@echo "... lib/imgui/imgui_widgets.s"
 	@echo "... src/ant.o"
 	@echo "... src/ant.i"
 	@echo "... src/ant.s"
 	@echo "... src/colony.o"
 	@echo "... src/colony.i"
 	@echo "... src/colony.s"
+	@echo "... src/gui.o"
+	@echo "... src/gui.i"
+	@echo "... src/gui.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

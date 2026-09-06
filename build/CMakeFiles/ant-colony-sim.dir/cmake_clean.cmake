@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ant-colony-sim.dir/src/ant.cpp.o.d"
   "CMakeFiles/ant-colony-sim.dir/src/colony.cpp.o"
   "CMakeFiles/ant-colony-sim.dir/src/colony.cpp.o.d"
+  "CMakeFiles/ant-colony-sim.dir/src/gui.cpp.o"
+  "CMakeFiles/ant-colony-sim.dir/src/gui.cpp.o.d"
   "CMakeFiles/ant-colony-sim.dir/src/main.cpp.o"
   "CMakeFiles/ant-colony-sim.dir/src/main.cpp.o.d"
   "CMakeFiles/ant-colony-sim.dir/src/map.cpp.o"

@@ -8,19 +8,19 @@ Map::Map() {
 }
 
 Map::Map(int window_width, int window_height, SDL_Renderer* renderer) {
-	this->width = window_width / 10;
-	this->height = window_height / 10;
+	this->width = window_width / 5;
+	this->height = window_height / 5;
 	this->renderer = renderer;
 }
 
 void Map::createMap() {
-	const int TILE_SIZE = 10;
+	const int TILE_SIZE = 5;
 
 	std::cout << "map size: "<< this->map.size() << std::endl;
 	for (int row = 0; row < this->height; row++) {
 		for (int col = 0; col < this->width; col++) {
-			TileState state = (col % 10 == 0) ? PHEROMONE : FLOOR;
-				this->map.push_back(new Tile(this->renderer, TILE_SIZE, TILE_SIZE, col, row, state));
+			/* TileState state = (col % 10 == 0) ? PHEROMONE : FLOOR; */
+			this->map.push_back(new Tile(this->renderer, TILE_SIZE, TILE_SIZE, col, row, FLOOR));
 		}
 	}
 	std::cout << "map size: "<< this->map.size() << std::endl;

@@ -1,12 +1,16 @@
 #pragma once
-#include <SDL3/SDL.h>
-#include <SDL3/SDL_main.h>
 #include <iostream>
 #include <string>
 #include <vector>
 
+#include <SDL3/SDL.h>
+#include <SDL3/SDL_main.h>
+
 #include "map.h"
 #include "tile.h"
+#include "gui.h"
+#include "../lib/imgui/backends/imgui_impl_sdl3.h"
+#include "../lib/imgui/backends/imgui_impl_sdlrenderer3.h"
 
 class Window {
 	public:
@@ -28,4 +32,6 @@ class Window {
 		SDL_Texture* texture;
 		SDL_Event event;
 		SDL_WindowFlags window_flags;
+
+		menuGUI* mGUI;
 };
