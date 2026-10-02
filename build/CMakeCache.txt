@@ -787,7 +787,7 @@ WAYLAND_CURSOR_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libwayland-cursor.so
 WAYLAND_EGL_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libwayland-egl.so
 
 //Path to a program.
-WAYLAND_SCANNER:FILEPATH=/usr/bin/wayland-scanner
+WAYLAND_SCANNER:FILEPATH=/home/lucas/anaconda3/bin/wayland-scanner
 
 //Path to a file.
 X11_ICE_INCLUDE_PATH:PATH=/usr/include

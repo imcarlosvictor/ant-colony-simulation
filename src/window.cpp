@@ -44,15 +44,26 @@ int Window::createWindow() {
 	// Create map
 	this->startSimulation();
 	
-	// ----[ GUI | One-Time SETUP ]----
+	//////////////////////////////////////////////////////////
+	// GUI | ImGui Context Setup
 	IMGUI_CHECKVERSION();
 	ImGui::CreateContext(); // Context (the data); points the ImGui's global struct (Text, Button, Begin, etc.)
 	ImGui_ImplSDL3_InitForSDLRenderer(this->window, this->renderer); // Platform Backend (get input in); wires SDL's window/input system to ImGui's internal input model
 	ImGui_ImplSDLRenderer3_Init(this->renderer); // Renderer backend (get pixels out); translate abstract intructions from ImGui to SDL Render
-	this->mGUI= new menuGUI();
-	// --------------------------------
+	//////////////////////////////////////////////////////////
 
-	// Logic for window creation and deletion from user inputs
+
+	this->mGUI= new menuGUI();
+	// Display Options
+	bool draw_ants = false;
+	bool draw_markers = false;
+	bool draw_density = false;
+	// Map Editor
+	bool brush_wall = false;
+	bool brush_food = false;
+	bool brush_erase = false;
+	int brush_size = 0;
+	// Window States
 	bool quit = false;
 	while (!quit) {
 		while (SDL_PollEvent(&this->event)) { 
@@ -63,15 +74,17 @@ int Window::createWindow() {
 			}
 		}
 
-		// ----[ GUI | Per-Frame Loop SETUP ]----
+		//////////////////////////////////////////////////////////
+		// GUI | Start ImGui Frame SETUP
 		// Build ImGui frame before building any UI (order matters!)
-		ImGui_ImplSDLRenderer3_NewFrame(); // resets render-specific frame state
-		ImGui_ImplSDL3_NewFrame(); // computes per-frame data (window size, mouse cursor shape, etc.)
-		ImGui::NewFrame(); // drop cuurent frame for a new frame
-		// add methods here
-		this->mGUI->textWindow(); 
+		ImGui_ImplSDLRenderer3_NewFrame(); // check if font textures are up-to-date
+		ImGui_ImplSDL3_NewFrame(); // gather input info and compute per-frame data (mouse coordinates, keyboard inputs, etc.) from SDL
+		ImGui::NewFrame(); // reset per-frame tracking to allow for new widget calls this frame
+		// add gui's here
+		this->mGUI->textWindow(&draw_ants, &draw_markers, &draw_density, &brush_wall, &brush_food, &brush_erase, &brush_size); 
+
 		ImGui::Render(); // translates draw data (Begin/Text/Button) from ImGui to SDL
-		// --------------------------------------
+		//////////////////////////////////////////////////////////
 
 		SDL_SetRenderDrawColor(renderer, 0x00, 0x00, 0x00, 0xFF);
 		SDL_RenderClear(this->renderer);

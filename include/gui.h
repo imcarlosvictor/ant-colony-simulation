@@ -9,5 +9,7 @@
 class menuGUI {
 	public:
 		menuGUI();
-		void textWindow();
+		/* void textWindow(bool* test_bool); */
+		void textWindow(bool* ants_bool, bool* markers_bool, bool* density_bool, bool* wall_bool, bool* food_bool, bool* erase_bool, int* brush_slider_value);
+
 };

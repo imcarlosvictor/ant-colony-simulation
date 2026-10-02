@@ -13730,6 +13730,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/src/video/yuv2rgb/yuv_rgb_std.c.
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alpha-modifier-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/alpha-modifier-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13741,6 +13742,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/alph
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/color-management-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/color-management-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13752,6 +13754,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/colo
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/cursor-shape-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/cursor-shape-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13763,6 +13766,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/curs
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/fractional-scale-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/fractional-scale-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13774,6 +13778,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frac
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog-color-management-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/frog-color-management-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13785,6 +13790,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/frog
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13796,6 +13802,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/idle
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/input-timestamps-unstable-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13807,6 +13814,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/inpu
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13818,6 +13826,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/keyb
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13829,6 +13838,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/poin
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/pointer-gestures-unstable-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13840,6 +13850,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/poin
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/pointer-warp-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/pointer-warp-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13851,6 +13862,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/poin
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/primary-selection-unstable-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13862,6 +13874,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/prim
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13873,6 +13886,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/rela
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/single-pixel-buffer-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13884,6 +13898,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/sing
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tablet-v2-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/tablet-v2-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13895,6 +13910,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/tabl
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text-input-unstable-v3-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/text-input-unstable-v3-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13906,6 +13922,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/text
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/viewporter-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/viewporter-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13917,6 +13934,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/view
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayland-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/wayland-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13928,6 +13946,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/wayl
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-activation-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/xdg-activation-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13939,6 +13958,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13950,6 +13970,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-dialog-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/xdg-dialog-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13961,6 +13982,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/xdg-foreign-unstable-v2-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13972,6 +13994,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/xdg-output-unstable-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13983,6 +14006,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-session-management-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/xdg-session-management-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -13994,6 +14018,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/xdg-shell-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -14005,6 +14030,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/xdg-toplevel-icon-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
@@ -14016,6 +14042,7 @@ lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-
 lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-toplevel-tag-v1-protocol.c.o: lib/SDL/vendored/SDL/CMakeFiles/SDL3-shared.dir/cmake_pch.h \
   lib/SDL/vendored/SDL/wayland-generated-protocols/xdg-toplevel-tag-v1-protocol.c \
   /usr/include/stdc-predef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
   /usr/include/stdlib.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
   /usr/include/wayland-util.h \
